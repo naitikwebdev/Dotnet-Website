@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar1{
+    box-shadow: rgb(0 0 0 / 38%) 0 2px 4px 0;
+    z-index: 999;
+    display: flex;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+nav>a{
+    display: block;
+    padding: 0 14px;
+    line-height: 48px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-logo{
+    margin-left: 2%;
+    margin-top: 0.5%;
+}
+.nav{
+    margin-left: 15%;
+    padding: 10px 10px;
+}
+.nav-link{
+    color: #424242;
+}
+.nav-item1{
+    margin-right: 5px;
+    margin-top: -5px;
+}
+.nav-item2{
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.nav-item3{
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.nav_login_btn{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.nav_login_btn>a{
+    background-color: rgb(28, 119, 255);
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 16px;
+
+}
+.nav_login_btn>a:hover{
+    color: blue;
+    border: blue 1.5px solid;
+    transition: 0.4s;
+    background-color: transparent;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+.type-wrap{
+    color: rgb(73, 106, 255);
+    text-transform: uppercase;
+}
+.sec1_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+}
+.sec2{
+    margin-left: 2%;
+}
+.sec2-title{
+    margin: 0 0 10px 460px;
+    display: flex;
+}
+.sec2-title-div1>h2{
+    color: rgb(55, 55, 55);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.sec2-title-div1>span{
+    background: #f59920;
+    height: 3px;
+    line-height: 0;
+    padding: 0 150px;
+    top: -18px;
+    font-size: 2px;
+    margin-left: 35px;
+    position: relative;
+}
+.sec2-title-div2>a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-left: 335px;
+}
+.four-courses{
+    display: flex;
+}
+.course-box{
+    box-shadow:
+    0 -2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 -12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.course-title{
+    font-size: 1.2rem;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+.net-design-img{
+    margin-left: 12px;
+    width: 90%;
+    height: 100%;
+}
+.azure-fundaments-img{
+    margin-left: 22px;
+    width: 80%;
+    height: 100%;
+}
+.angular-img{
+    margin-left: 18px;
+    width: 85%;
+    height: 100%;
+}
+.react-img{
+    margin-left: 18px;
+    width: 90%;
+    height: 100%;
+}
+.aws-cloud-img{
+    margin-left: 15px;
+    width: 90%;
+    height: 100%;
+}
+.blazor-img{
+    margin-left: 20px;
+    width: 90%;
+    height: 100%;
+}
+.azure-dev-img{
+    margin-left: 4px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}
+.azure-admin-img{
+    margin-left: 12px;
+    width: 90%;
+    height: 100%;
+}
+.sec2-courses-btn{
+    margin-top: 20px;
+}
+.sec2-courses-btn>a{
+    background-color: #ff8c00;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: 0 8px 6px -6px rgb(174, 174, 174);
+    margin-left: 34%;
+}
