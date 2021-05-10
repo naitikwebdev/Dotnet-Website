@@ -14,7 +14,7 @@
 nav>a{
     display: block;
     padding: 0 14px;
-    line-height: 48px;
+    line-height: 48px ;
     text-decoration: none;
     position: relative;
 }
@@ -301,6 +301,22 @@ nav>a{
     margin-left: 29px;
     position: relative;
 }
+.sec4-courses-btn{
+    margin-top: 1.5rem;
+}
+.sec4-courses-btn>a{
+    padding: .5rem 2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border-radius: .3rem;
+    font-size: 1.0rem;
+    box-shadow: 0 8px 6px -6px rgb(174, 174, 174);
+    margin-left: 36.5%;
+}
+.sec4-courses-btn>a:hover{
+    color: rgb(220, 220, 220);
+}
 .sec4-title-div2>a{
     text-transform: capitalize;
     text-decoration: none;
@@ -323,4 +339,71 @@ nav>a{
 }
 .sec4-course3{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;  
+}
+
+.sec5{
+    margin-left: 2.5%;
+    margin-top: 100px;
+}
+.sec5-title{
+    margin: 0 0 10px 440px;
+    display: flex;
+}
+.sec5-title-div1>h2{
+    color: rgb(55, 55, 55);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.sec5-title-div1>span{
+    background: #f59920;
+    height: 3px;
+    line-height: 0;
+    padding: 0 180px;
+    top: -18px;
+    font-size: 2px;
+    margin-left: 29px;
+    position: relative;
+}
+.sec5-courses-btn{
+    margin-top: 1.5rem;
+}
+.sec5-courses-btn>a{
+    background: #ff8c00;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border-radius: .3rem;
+    font-size: 1.0rem;
+    box-shadow: 0 8px 6px -6px rgb(174, 174, 174);
+    margin-left: 36.5%;
+}
+.sec5-courses-btn>a:hover{
+    color: rgb(220, 220, 220);
+}
+.sec5-title-div2>a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-left: 335px;
+}
+.sec5-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-top: -6%;
+}
+.sec5-course1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;  
+}
+.sec5-course2{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;  
+}
+.sec5-course3{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;  
+}
+.icon{
+    margin-bottom: 5px;
 }
