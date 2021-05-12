@@ -144,6 +144,9 @@ nav>a{
 .course-box2{
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
+.course-box3{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 .course-title{
     font-size: 1.2rem;
     color: rgb(51, 51, 51);
@@ -407,3 +410,171 @@ nav>a{
 .icon{
     margin-bottom: 5px;
 }
+.sec6{
+    margin-left: 2%;
+    margin-top: 3.5rem;
+    margin-bottom: 20px;
+}
+.sec6-title{
+    margin: 0 0 10px 460px;
+    display: flex;
+}
+.sec6-title-div1>h2{
+    color: rgb(55, 55, 55);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.sec6-title-div1>span{
+    background: #f59920;
+    height: 3px;
+    line-height: 0;
+    padding: 0 150px;
+    top: -18px;
+    font-size: 2px;
+    margin-left: 35px;
+    position: relative;
+}
+.sec6-title-div2>a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-left: 335px;
+}
+.azure-devoop-qa-img{
+    margin-left: 8px;
+    width: 90%;
+    height: 100%;
+}
+.azure-dev-qa-img{
+    margin-left: 12px;
+    width: 80%;
+    height: 100%;
+}
+.python-qa-img{
+    margin-left: 10px;
+    width: 85%;
+    height: 100%;
+}
+.react-qa-img{
+    width: 90%;
+    height: 100%;
+}
+.azure-admin-qa-img{
+    margin-left: 5px;
+    width: 90%;
+    height: 100%;
+}
+.kubernetes-qa-img{
+    width: 90%;
+    height: 100%;
+}
+.sec6-courses-btn{
+    margin-top: 50px;
+}
+.sec6-courses-btn>a{
+    background-color: #ff8c00;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: 0 8px 6px -6px rgb(174, 174, 174);
+    margin-left: 34%;
+}
+.sec6-courses-btn>a:hover{
+    color: rgb(213, 213, 213);
+}
+.three-courses{
+    display: flex;
+    margin-left: 5.5rem;
+}
+
+.footer-clean {
+    padding:50px 0;
+    background-color:#fff;
+    color:#4b4c4d;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:1px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-clean .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  @media (max-width:991px) {
+    .footer-clean .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item.social > a {
+      margin-top:10px;
+    }
+  }
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    margin-right: 15px;
+    font-size:15px;
+    opacity:0.8;
+  }
