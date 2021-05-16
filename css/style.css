@@ -442,31 +442,36 @@ nav>a{
     font-size: 1.1rem;
     margin-left: 335px;
 }
-.azure-devoop-qa-img{
-    margin-left: 8px;
+.angular-qa-img{
+    margin-left: 14px;
     width: 90%;
     height: 100%;
 }
 .azure-dev-qa-img{
-    margin-left: 12px;
+    margin-left: 25px;
+    margin-top: 10px;
     width: 80%;
     height: 100%;
 }
 .python-qa-img{
-    margin-left: 10px;
+    margin-left: 20px;
     width: 85%;
     height: 100%;
 }
 .react-qa-img{
+    margin-left: 12px;
     width: 90%;
     height: 100%;
 }
 .azure-admin-qa-img{
-    margin-left: 5px;
+    margin-left: 16px;
+    margin-top: 18px;
     width: 90%;
     height: 100%;
 }
 .kubernetes-qa-img{
+    margin-left: 15px;
+    margin-top: 5px;
     width: 90%;
     height: 100%;
 }
